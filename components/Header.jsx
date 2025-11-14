@@ -22,7 +22,7 @@ function ResponsiveAppBar() {
             justifyContent: "space-between",
           }}
         >
-          <Image src="/navlogo.png" width={80} height={80} alt="navlogo" />
+          <Image src="/logo.png" width={150} height={150} alt="navlogo" />
           <Box
             sx={{ flexGrow: 0, display: "flex", alignItems: "center", gap: 2 }}
           >
