@@ -8,10 +8,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body style={{ backgroundColor: "#F4F4F4" }}>
         <CssBaseline />
-        <ReduxProvider>
-          <Header />
-          {children}
-        </ReduxProvider>
+        <ReduxProvider>{children}</ReduxProvider>
       </body>
     </html>
   );

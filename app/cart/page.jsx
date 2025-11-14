@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 import Image from "next/image";
 import { useSelector, useDispatch } from "react-redux";
-import { removeFromCart, clearCart } from "@/redux/cartSlice";
+import { removeFromCart, clearCart } from "@/redux/CartSlice";
 import CloseIcon from "@mui/icons-material/Close";
 
 export default function CartPage() {
@@ -35,8 +35,8 @@ export default function CartPage() {
     <Box
       sx={{
         minHeight: "100vh",
-        bgcolor: "#F4F4F4",
-        color: "black",
+        bgcolor: "#111827",
+        color: "white",
         py: 4,
       }}
     >
@@ -49,7 +49,7 @@ export default function CartPage() {
         </Typography>
 
         {items.length === 0 ? (
-          <Typography sx={{ textAlign: "center" }}>
+          <Typography sx={{ textAlign: "center", color: "white" }}>
             Your cart is empty.
           </Typography>
         ) : (
@@ -86,7 +86,7 @@ export default function CartPage() {
                     <Typography sx={{ fontWeight: 500 }}>
                       {item.title}
                     </Typography>
-                    <Typography sx={{ fontSize: "0.8rem", color: "black" }}>
+                    <Typography sx={{ fontSize: "0.8rem", color: "white" }}>
                       {item.category}
                     </Typography>
                     <Typography sx={{ mt: 0.5 }}>
@@ -99,7 +99,7 @@ export default function CartPage() {
 
                   <IconButton
                     onClick={() => handleRemove(item.id)}
-                    sx={{ color: "black" }}
+                    sx={{ color: "white" }}
                   >
                     <CloseIcon />
                   </IconButton>
@@ -107,7 +107,7 @@ export default function CartPage() {
               ))}
             </Box>
 
-            <Divider sx={{ my: 4, borderColor: "black" }} />
+            <Divider sx={{ my: 4, borderColor: "white" }} />
 
             <Box
               sx={{

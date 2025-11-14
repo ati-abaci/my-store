@@ -1,5 +1,6 @@
 "use client";
 
+import { use } from "react";
 import { Box, Container, Typography, Button, Breadcrumbs } from "@mui/material";
 import Link from "next/link";
 import CardItem from "@/components/CartItem";
@@ -8,7 +9,7 @@ import { useDispatch } from "react-redux";
 import { addToCart } from "@/redux/CartSlice";
 
 export default function ProductPage({ params }) {
-  const { id } = params;
+  const { id } = use(params);
 
   const dispatch = useDispatch();
 
@@ -51,8 +52,8 @@ export default function ProductPage({ params }) {
     <Box
       sx={{
         minHeight: "100vh",
-        bgcolor: "#F4F4F4",
-        color: "black",
+        bgcolor: "#111827",
+        color: "white",
         py: 4,
       }}
     >
@@ -61,11 +62,14 @@ export default function ProductPage({ params }) {
           aria-label="breadcrumb"
           sx={{
             mb: 4,
-            "& a": { color: "text.secondary", textDecoration: "none" },
+            "& a": {
+              color: "white",
+              textDecoration: "none",
+            },
           }}
         >
           <Link href="/">Home</Link>
-          <Typography color="black">Product</Typography>
+          <Typography color="white">Product</Typography>
         </Breadcrumbs>
 
         <Box
@@ -95,25 +99,25 @@ export default function ProductPage({ params }) {
             <Typography
               sx={{
                 fontSize: "0.9rem",
-                color: "text.secondary",
+                color: "white",
                 textTransform: "uppercase",
               }}
             >
               {product.category}
             </Typography>
 
-            <Typography sx={{ color: "text.secondary" }}>
+            <Typography sx={{ color: "white" }}>
               Take your skills to the next level with this course.
             </Typography>
 
-            <Typography variant="h6" sx={{ mt: 2 }}>
+            <Typography variant="h6" sx={{ mt: 2, color: "white" }}>
               {product.price}
             </Typography>
 
             <Box sx={{ mt: 3 }}>
               <Button
                 variant="outlined"
-                color="black"
+                sx={{ bgcolor: "#0D9488", color: "white", border: "none" }}
                 onClick={handleAddToCart}
               >
                 Add To Cart

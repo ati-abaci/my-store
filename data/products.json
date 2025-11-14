@@ -1,55 +1,55 @@
 [
   {
-    "id": "mastering-nextjs-14",
+    "id": "1",
     "title": "Mastering Next.js 14: Advanced Web Development",
     "category": "TECH",
     "price": "$49.99",
     "image": "/Next14.jpg"
   },
   {
-    "id": "complete-python-programming",
+    "id": "2",
     "title": "Complete Python Programming",
     "category": "TECH",
     "price": "$19.99",
     "image": "/python.jpg"
   },
   {
-    "id": "digital-marketing-fundamentals",
+    "id": "3",
     "title": "Digital Marketing Fundamentals",
     "category": "MARKETING",
     "price": "$14.99",
     "image": "/digitalmarketing.jpg"
   },
   {
-    "id": "ethical-hacking-cybersecurity",
+    "id": "4",
     "title": "Ethical Hacking & Cybersecurity",
     "category": "SECURITY",
     "price": "$24.99",
     "image": "/ethical-hacking.jpg"
   },
   {
-    "id": "ml-for-beginners",
+    "id": "5",
     "title": "Machine Learning for Beginners",
     "category": "TECH",
     "price": "$29.99",
     "image": "/pic5.jpg"
   },
   {
-    "id": "web-dev-bootcamp",
+    "id": "6",
     "title": "Web Development Bootcamp: Build Modern Websites",
     "category": "TECH",
     "price": "$39.99",
     "image": "/pic6.jpg"
   },
   {
-    "id": "email-marketing-mastery",
+    "id": "7",
     "title": "Email Marketing Mastery: Convert Leads",
     "category": "MARKETING",
     "price": "$24.99",
     "image": "/pic7.jpg"
   },
   {
-    "id": "cybersecurity-fundamentals",
+    "id": "8",
     "title": "Cybersecurity Fundamentals: Protect Your Data",
     "category": "SECURITY",
     "price": "$19.99",
