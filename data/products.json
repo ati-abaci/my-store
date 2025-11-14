@@ -1,0 +1,58 @@
+[
+  {
+    "id": "mastering-nextjs-14",
+    "title": "Mastering Next.js 14: Advanced Web Development",
+    "category": "TECH",
+    "price": "$49.99",
+    "image": "/Next14.jpg"
+  },
+  {
+    "id": "complete-python-programming",
+    "title": "Complete Python Programming",
+    "category": "TECH",
+    "price": "$19.99",
+    "image": "/python.jpg"
+  },
+  {
+    "id": "digital-marketing-fundamentals",
+    "title": "Digital Marketing Fundamentals",
+    "category": "MARKETING",
+    "price": "$14.99",
+    "image": "/digitalmarketing.jpg"
+  },
+  {
+    "id": "ethical-hacking-cybersecurity",
+    "title": "Ethical Hacking & Cybersecurity",
+    "category": "SECURITY",
+    "price": "$24.99",
+    "image": "/ethical-hacking.jpg"
+  },
+  {
+    "id": "ml-for-beginners",
+    "title": "Machine Learning for Beginners",
+    "category": "TECH",
+    "price": "$29.99",
+    "image": "/pic5.jpg"
+  },
+  {
+    "id": "web-dev-bootcamp",
+    "title": "Web Development Bootcamp: Build Modern Websites",
+    "category": "TECH",
+    "price": "$39.99",
+    "image": "/pic6.jpg"
+  },
+  {
+    "id": "email-marketing-mastery",
+    "title": "Email Marketing Mastery: Convert Leads",
+    "category": "MARKETING",
+    "price": "$24.99",
+    "image": "/pic7.jpg"
+  },
+  {
+    "id": "cybersecurity-fundamentals",
+    "title": "Cybersecurity Fundamentals: Protect Your Data",
+    "category": "SECURITY",
+    "price": "$19.99",
+    "image": "/pic8.jpg"
+  }
+]
