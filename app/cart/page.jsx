@@ -78,6 +78,7 @@ export default function CartPage() {
                       src={item.image}
                       alt={item.title}
                       fill
+                      sizes="(max-width: 768px) 80px, 80px" // ADDED SIZES PROP
                       style={{ objectFit: "cover" }}
                     />
                   </Box>
@@ -121,13 +122,7 @@ export default function CartPage() {
               <Typography variant="h6">${total.toFixed(2)}</Typography>
             </Box>
 
-            <Box
-              sx={{
-                display: "flex",
-                justifyContent: "flex-end",
-                gap: 2,
-              }}
-            >
+            <Box sx={{ display: "flex", justifyContent: "flex-end", gap: 2 }}>
               <Button variant="outlined" color="error" onClick={handleClear}>
                 Clear Cart
               </Button>
